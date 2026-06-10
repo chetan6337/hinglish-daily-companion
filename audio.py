@@ -6,7 +6,6 @@ def transcribe_audio(audio_file):
     """Converts recorded Streamlit audio file into text without crashing the UI player."""
     recognizer = sr.Recognizer()
     
-    # Secretly copy the audio bytes so Streamlit's original file stays intact
     audio_bytes = audio_file.getvalue()
     isolated_audio = io.BytesIO(audio_bytes)
     
