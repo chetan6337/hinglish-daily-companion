@@ -3,9 +3,9 @@ from langchain_core.messages import HumanMessage, AIMessage
 from engine import get_chat_engine
 from audio import transcribe_audio
 
-st.set_page_config(page_title="Hinglish Chat Buddy", page_icon="💬", layout="centered")
-st.title("💬 Tera Hinglish Buddy")
-st.caption("Kuch bhi baat kar, mai sirf Hinglish me jawab dunga!")
+st.set_page_config(page_title="Tera Khas Dost", page_icon="💬", layout="centered")
+st.title("💬 Tera Khas Dost")
+st.caption("Kuch bhi baat kar, mai tujhe jawab dunga!")
 
 
 @st.cache_resource
